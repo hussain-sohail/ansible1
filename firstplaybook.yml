@@ -4,8 +4,8 @@
   tasks:  
   - name: i want to install apache2 webserver on ansible node
     apt:
-     name: apache2
-     state: present
+      name: apache2
+      state: present
 
 
   - name: i want to start apache2 webserver on ansible node
